@@ -1,0 +1,82 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 90vh;
+  background-color: rgb(var(--blue));
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 18px;
+  padding: 25px;
+}
+
+.formHeader {
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.formInputs {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  min-height: 50%;
+  justify-content: space-between;
+  background-color: rgb(var(--gray));
+  border-radius: 15px;
+  padding: 30px;
+  align-items: center;
+}
+
+.formInput {
+  text-align: center;
+  background-color: rgb(var(--dark-blue));
+  width: 85%;
+  padding: 13px;
+  border-radius: 10px;
+}
+
+.formField {
+  font-size: 1.2rem;
+  padding: 8px;
+  border-radius: 10px;
+  color: rgb(var(--dark-blue));
+  background-color: lightgray;
+}
+
+.error {
+  margin-top: 6px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: rgb(145, 129, 129);
+}
+
+.field::placeholder {
+  color: rgb(var(--dark-gray));
+}
+
+.btn {
+  font-size: 1.2rem;
+  background-color: lightgray;
+  width: 40%;
+  padding: 8px;
+  border-radius: 15px;
+}
+
+.formInput,
+.btn,
+.form,
+.formInputs {
+  border: 3px solid rgb(var(--dark-gray));
+}
+
+.formRegisterLink {
+  color: lightgray;
+  font-style: italic;
+}
+
+.formRegisterLink:hover {
+  transform: translateY(-3px);
+}
